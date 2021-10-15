@@ -10,10 +10,10 @@ public class StringToInteger {
             return integer;
         }
         BigInteger longResult = new BigInteger(digits);
-        if (longResult.compareTo(new BigInteger(String.valueOf(Integer.MAX_VALUE))) == 1) {
+        if (longResult.compareTo(new BigInteger(String.valueOf(Integer.MAX_VALUE))) > 0) {
             return Integer.MAX_VALUE;
         }
-        if (longResult.compareTo(new BigInteger(String.valueOf(Integer.MIN_VALUE))) == -1) {
+        if (longResult.compareTo(new BigInteger(String.valueOf(Integer.MIN_VALUE))) < 0) {
             return Integer.MIN_VALUE;
         }
         integer = Integer.parseInt(digits);
