@@ -1,4 +1,4 @@
-package lesson4.homework.stringToInt;
+package lesson4.homework.stringtoint;
 
 import java.math.BigInteger;
 
