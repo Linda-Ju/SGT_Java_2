@@ -1,0 +1,13 @@
+package lesson8.task3;
+
+public class Demo {
+    public static void main(String[] args) {
+
+        Employee janis = new Employee("Janis", 37, "26484575", "Riga", 1000, "teacher");
+        Manager dace = new Manager("Dace", 29, "254588778", "Jelgava", 1200, "unknown");
+
+        janis.printSalary();
+        dace.printSalary();
+
+    }
+}
